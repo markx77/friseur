@@ -47,7 +47,7 @@ function drawmap() {
     var popuptext="<font color=\"black\"><b>HAIRLOUNGE Jane Laurenz</b><br>Johann-Sebastian-Bach-Str. 4<br>09648 Mittweida<p></p></font>";
 
     OpenLayers.Lang.setCode('de');
-    
+
     // Position und Zoomstufe der Karte
     var lon = 12.97910;
     var lat = 50.98349;
@@ -69,12 +69,12 @@ function drawmap() {
     });
 
     layer_mapnik = new OpenLayers.Layer.OSM.Mapnik("Mapnik");
-    layer_markers = new OpenLayers.Layer.Markers("Address", { projection: new OpenLayers.Projection("EPSG:4326"), 
+    layer_markers = new OpenLayers.Layer.Markers("Address", { projection: new OpenLayers.Projection("EPSG:4326"),
     	                                          visibility: true, displayInLayerSwitcher: false });
 
     map.addLayers([layer_mapnik, layer_markers]);
     jumpTo(lon, lat, zoom);
- 
+
     // Position des Markers
     addMarker(layer_markers, 12.97910, 50.98349);
 
@@ -85,7 +85,7 @@ function drawmap() {
   </head>
 
   <body onload="drawmap();">
-  
+
 	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
@@ -109,19 +109,19 @@ Telefon: 03727/998 333 6<br><br>
 
 E-Mail: Kontakt@Hairlounge-Jane-Laurenz.de<br><br>
 
- 
+
 
 UmStNr.:<br>
 
 222/243/01557<br><br>
 
- 
+
 
 USt-IdNr.:<br>
 
 47 916 087 530<br><br>
 
- 
+
 
 Angaben gemäß § 5 TMG:<br><br>
 
@@ -130,7 +130,7 @@ Hairlounge Jane Laurenz<br>
 Weberstraße 17<br>
 09648 Mittweida<br><br>
 
- 
+
 
 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br><br>
 
@@ -139,7 +139,7 @@ Hairlounge Jane Laurenz<br>
 Weberstraße 17<br>
 09648 Mittweida<br><br>
 
- 
+
 
 Haftungsausschluss:<br><br>
 
@@ -147,19 +147,19 @@ Haftungsausschluss:<br><br>
 
 Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.<br><br>
 
- 
+
 
 Haftung für Links<br><br>
 
 Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br><br>
 
- 
+
 
 Urheberrecht<br><br>
 
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 <br><br>
- 
+
 
 Datenschutzerklärung<br><br>
 
@@ -203,7 +203,7 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
                 <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-font-weight-700 g-font-size-15 g-pt-20 g-pt-0--lg ml-auto">
                   <li class="nav-item g-mr-12--lg g-mb-7 g-mb-0--lg active">
                     <a href="#home" class="nav-link p-0">Home <span class="sr-only">(current)</span></a>
-                  </li>	
+                  </li>
                   <li class="nav-item g-mx-12--lg g-mb-7 g-mb-0--lg">
                     <a href="#service" class="nav-link p-0">Service</a>
                   </li>
@@ -269,16 +269,16 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
             <div class="col-md-6 d-flex align-items-center text-center g-pa-50">
               <div class="w-100">
                 <div class="g-mb-25">
-                  <h4 class="g-font-weight-700 g-font-size-30 g-theme-h-v1 g-color-primary g-mb-25">DIE HAIRLOUNGE</h4>
+                  <h4 class="g-font-weight-700 g-font-size-30 g-theme-h-v1 g-color-primary g-mb-25">DIE HAIRLOUNGE...</h4>
                 </div>
 
                 <p class="g-mb-35"> Mit der Eröffnung der Hairlounge wurde ein völlig neuer Kreativraum in der Altstadt von Mittweida geschaffen. Hier, wo zukünftig nicht nur trendige Frisuren kreiert werden, erfährt ihr Haar eine Behandlung, bei der durch Analyse und mittels einer typgerechten Beratung, sie eine fachgerechte Ausführung erleben werden, die ihr Haar in klassische und modisch aktuelle Frisuren verwandelt. Auf den Einsatz von Friseurexklusiven Produkten, zur gesunden und schonenden Behandlung des Haares, von der Kopfhaut bis in die Spitzen, wird in der Hairlounge besonderen Wert gelegt. Über ein weites Spektrum von Servicedienstleistungen rund um ihr Haar möchten sie die folgenden Seiten informieren.<br><br>
 
- 
+
 
 Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegeanwendungen, bieten wir ihnen nur das Beste - Weil das Beste für ihr Haar gerade gut genug ist.<br><br>
 
- 
+
 
 Überzeugen sie sich selbst und verwöhnen sie ihr Haar, in der HAIRLOUNGE Jane Laurenz in der Altstadt von Mittweida.<br><br>Der Umbau und die Einrichtung wurden durch den europäischen Fonds für regionale Entwicklung mitfinanziert.</p>
                 <img src="assets/img/europa.jpg" style="width:320px;max-width:100%;">
@@ -301,7 +301,7 @@ Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegean
 					</tr>
 				  </thead>
 				  <tbody>
-					<tr>					  
+					<tr>
 					  <td>Wohlfühlhaarwäsche - Haarschnitt - Frisur *</td>
 					  <td>42,00 €</td>
 					</tr>
@@ -342,7 +342,7 @@ Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegean
 					</tr>
 				  </thead>
 				  <tbody>
-					<tr>					  
+					<tr>
 					  <td>Wohlfühlhaarwäsche - Haarschnitt - Frisur</td>
 					  <td>28,00 €</td>
 					</tr>
@@ -371,7 +371,7 @@ Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegean
 					<tr>
 						<td colspan="2">Mädchen</td>
 					</tr>
-					<tr>					  
+					<tr>
 					  <td>bis 4 Jahre</td>
 					  <td>12,50 €</td>
 					</tr>
@@ -389,7 +389,7 @@ Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegean
 					</tr>
 				  </tbody>
 				</table>
-				
+
 				<table class="table table-striped w-50">
 				  <thead>
 					<tr>
@@ -400,7 +400,7 @@ Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegean
 					<tr>
 						<td colspan="2">Jungen</td>
 					</tr>
-					<tr>					  
+					<tr>
 					  <td>bis 4 Jahre</td>
 					  <td>12,50 €</td>
 					</tr>
@@ -414,7 +414,7 @@ Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegean
 					</tr>
 				  </tbody>
 				</table>
-				
+
 
               </div>
             </div>
@@ -438,25 +438,25 @@ Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegean
                 </div>
               </div>
             </div>
-			
-			 
-			
+
+
+
           </div>
         </div>
 
-        
+
       </section>
-	  
-	  
+
+
 	  <section class="g-py-80 g-theme-bg-gray-light-v1">
         <div class="container-fluid px-0">
-         
+
 
           <div class="row no-gutters" id="leistungen">
             <div class="col-md-12 align-items-center text-center">
 				<div class="g-mb-25">
                   <h4 class="g-font-weight-700 g-font-size-30 g-theme-h-v1 g-color-primary g-mb-50">LEISTUNGEN</h4>
-                  
+
                 </div>
               <div class="js-carousel"
                    data-infinite="true"
@@ -465,7 +465,7 @@ Ständig auf der Suche, nach den aktuellsten Trends und Schnitten sowie Pflegean
                    data-arrow-right-classes="fa fa-chevron-right g-right-0">
                 <div class="js-slide">
                   <div class="row">
-					
+
 					<div class="col-md-6" style="padding:0px 50px 0px 50px;">
 						<h5>Haarpflegeberatung</h5>
 						<p>Viele Kunden greifen zu Produkten die nicht auf ihr Haar abgestimmt sind oder deren Anwendung nicht fachgerecht vermittelt wird.<br><br>
@@ -480,7 +480,7 @@ Um ihnen die richtigen Produkte und Anwendungen empfehlen zu können, führen wi
                 </div>
 				<div class="js-slide">
                   <div class="row">
-					
+
 					<div class="col-md-6" style="padding:0px 50px 0px 50px;">
 						<h5>Hairlounge-Massagen</h5>
 						<p>Genießen sie in der Hairlounge eine fachgerecht ausgeführte Kopfmassage und fördern sie die Durchblutung ihrer Kopfhaut und des Großhirns. Durch die stärkere Durchblutung werden die Zellen mit mehr Sauerstoff versorgt und können ihre Funktion optimal ausführen. Durch die Anregung des Stoffwechsels des Körpers, werden sie nicht nur ein gesteigertes Wohlbefinden erleben, sondern wirken auf ganz natürliche Art und Weise Haarausfall entgegen.
@@ -493,7 +493,7 @@ Kopfmassagen tragen neben Stressabbau dazu bei, Nacken- und Schulterverspannunge
 
 Die Stimmulierung des Nervensystems führt zu einer Senkung des Blutdrucks und der Pulsfrequenz, wodurch der gewünschte Entspannungseffekt eintritt.
 
- 
+
 
 Zur Verstärkung der aufgezeigten positiven Wirkungen, setzten wir moderne Komfortmassagesessel ein, die ihnen bereits während der Wohlfühlhaarwäsche ein Repertoir an verschiedenen Rückenmassagen bietet. Genießen sie das besondere Hairloungeerlebnis und verwöhnen sie Körper und Geist.
 
@@ -504,10 +504,10 @@ Zur Verstärkung der aufgezeigten positiven Wirkungen, setzten wir moderne Komfo
 					</div>
 				  </div>
                 </div>
-				
+
 				<div class="js-slide">
                   <div class="row">
-					
+
 					<div class="col-md-6" style="padding:0px 50px 0px 50px;">
 						<h5>ELUMEN HAIR COLOR</h5>
 						<p>Ein brillantes Farbergebnis, das dem Haar ein intensives Leuchten verleiht, erreicht man nur mit Elumen von Goldwell.
@@ -526,23 +526,23 @@ Diese physikalische Färbemethode erlaubt es auch, durch Umkehrung der Ladung, e
 
  <br><br>
 
-Entgegen anderer oxidativer Farbstoffe, welche erst im Haar aus verschiedenen Substanzen hergestellt werden, kommen bei Elumen fertige direktziehende Pigmente zum Einsatz, wodurch unerwünschte Kreuzreaktionen vermieden werden und lebendigere Farben entstehen. Eine Vielzahl verschiedener Farbnuancen sind dabei möglich. 
+Entgegen anderer oxidativer Farbstoffe, welche erst im Haar aus verschiedenen Substanzen hergestellt werden, kommen bei Elumen fertige direktziehende Pigmente zum Einsatz, wodurch unerwünschte Kreuzreaktionen vermieden werden und lebendigere Farben entstehen. Eine Vielzahl verschiedener Farbnuancen sind dabei möglich.
 
- 
+
 <br><br>
-Somit ist selbst für ein sattes Farbergebniss über viele Farbstufen hinweg, nur ein einziger Färbeschritt notwendig, ohne kostenintensives und schädliches Vorfärben.  
+Somit ist selbst für ein sattes Farbergebniss über viele Farbstufen hinweg, nur ein einziger Färbeschritt notwendig, ohne kostenintensives und schädliches Vorfärben.
 
 </p>
 					</div>
 					<div class="col-md-6">
 						<img src="assets/jbilder/elumen.jpg" class="img-responsive" style="margin-left:auto;margin-right:auto;height:450px;">
 					</div>
-					
+
 				  </div>
                 </div>
-				
+
 				<div class="js-slide">
-                  <div class="row">					
+                  <div class="row">
 					<div class="col-md-12" style="padding:0px 50px 0px 50px;">
 						<h5>Heiße Schere gegen Spliss und zur Farbversiegelung</h5>
 						<p style="max-width:700px;margin-left:auto;margin-right:auto;">Die von Natur aus geschlossenen Haarspitzen werden durch das Kalt-Schneiden des Haares geöffnet. Tritt hierzu eine chemische oder mechanische Belastung hinzu, durch beispielsweise Färbung oder Reibung des Haares auf den Schultern, so reißen die geöffneten Haarspitzen ein und zerfassern. Spliss entsteht.
@@ -555,23 +555,23 @@ Die zerfasserten Haare verharken sich, wodurch es zur Strähnenbildung kommt, un
 
 Mit einem "Heiße-Scheren" - Schnitt kann dem entgegengewirkt werden. Durch den Hitzepunkt der aufeinandertreffenden Klingen wird das Haar direkt beim Schnitt am Schnittpunkt versiegelt, und bildet einen glatten und gesunden Abschluss des Haares.
 <br><br>
- 
+
 
 Diese in der Medizin entwickelte Haartherapie ermöglicht es die Haare wieder lockig und füllig liegen zu lassen. Überdies wird durch die Versiegelung der Haarspitzen ein Ausfallen der Pigmente aus dem gefärbten Haar verhindert und somit ausgeblichene Haarspitzen vermieden.
 <br><br>
- 
+
 
 Dieser Schnitt kann sowohl vorbeugend gegen Spliss, als auch reparierend bei bereits vorhandenem Spliss durchgeführt werden.
 </p>
 
 						<img src="assets/jbilder/heisse_schere.jpg" class="img-responsive" style="margin-left:auto;margin-right:auto;">
 					</div>
-					
+
 				  </div>
                 </div>
-				
+
 				<div class="js-slide">
-                  <div class="row">					
+                  <div class="row">
 					<div class="col-md-12" style="padding:0px 50px 0px 50px;">
 						<h5>MEN Reshade</h5>
 						<p style="max-width:700px;margin-left:auto;margin-right:auto;">Die von Natur aus geschlossenen Haarspitzen werden durch das Kalt-Schneiden des Haares geöffnet. Tritt hierzu eine Mit MenReShade von Goldwell ist es uns möglich, in jedem Stadium des Alterungsprozesses eines Mannes, eine Graureduzierung durchzuführen, die ein frisches Farbergebnis hervorbringt.
@@ -580,46 +580,46 @@ Dieser Schnitt kann sowohl vorbeugend gegen Spliss, als auch reparierend bei ber
 
 Durch die unkomplizierte Anwendung als Schaum, mit den Ergebnissen einer oxidativen Farbtechnologie, ist eine diskrete Behandlung direkt am Waschbecken im Salon möglich, um auch höchsten Männeransprüchen gerecht zu werden.
 <br><br>
- 
+
 
 Ohne Helmeffekt oder gefärbtes Aussehen, wird so unkompliziert, schnell und sicher das graue Haar in nur 5 Minuten reduziert. Keine Verfärbung beim Auswaschen und kein Ansatz beim Nachwachsen, sichern auch nach der Behandlung in der Hairlounge ein natürliches Aussehen.
 </p>
 
 						<img src="assets/jbilder/reshade.jpg" class="img-responsive" style="margin-left:auto;margin-right:auto;">
 					</div>
-					
+
 				  </div>
                 </div>
-				
+
 				<div class="js-slide">
-                  <div class="row">					
+                  <div class="row">
 					<div class="col-md-12" style="padding:0px 50px 0px 50px;">
 						<h5>INNER-EFFECT - Anti-Haarausfall-System</h5>
 						<p style="max-width:700px;margin-left:auto;margin-right:auto;">Die von Natur aus geschlossenen Haarspitzen werden durch das Kalt-Schneiden des Haares geöffnet. Tritt hierzu eine Bei immer mehr Menschen setzt in einem frühen Altersabschnitt eine vorzeitige Rückbildung der Haarwurzel ein. Die durch körpereigene Substanzen ausgelöste Veränderung verkürzt die Wachsstumsphase, wodurch das Haar eher ausfällt.
 
- 
+
 <br><br>
 Treten sie in der Hairlounge mit einer multifunktionalen Wirkstoffkombination dem Haarausfall aktiv entgegen. Eine klinische Studie beweist, die Kombination des Anti-Haarausfall-Systems aus Menthol, t-Flavanone, Procapil und anderen Wirkstoffen verlängert den Lebenszyklus des Haares, und kann vorzeitigen Haarausfall um bis zu 46 % reduzieren.<br><br>Das Menthol stimuliert die Kopfhaut für die optimale Aufnahme der Wirkstoffe. T-Flavanone und Procapil halten die Rückbildung des Haares auf, kräftigen das Haar und verankern es wieder stärker in der Kopfhaut.<br><br>Positive Ergebnisse wurden bei erblich bedingtem, hormonellem sowie temporärem und kreisrundem Haarausfall verzeichnet.
 <br><br>
- 
 
- 
+
+
 
 Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgeführt. Eine umfassende und diskrete Beratung, sowie Anwendungserklärung der Produkte, erhalten sie direkt in der Hairlounge.
 </p>
 
 						<img src="assets/jbilder/haarausfall.jpg" class="img-responsive" style="margin-left:auto;margin-right:auto;">
 					</div>
-					
+
 				  </div>
                 </div>
-                
+
               </div>
             </div>
 			</div>
-        </div>        
+        </div>
       </section>
-	  
+
       <!-- End Section Content -->
 
       <!-- Section Content -->
@@ -630,7 +630,7 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
             <h2 class="text-uppercase g-font-weight-600 g-font-size-22 mb-0">Wir sind gern für Sie da.</h2>
           </div>
 
-          <p class="mb-0">Ich würde mich freuen, Sie in meinem Salon begrüßen zu dürfen. 
+          <p class="mb-0">Ich würde mich freuen, Sie in meinem Salon begrüßen zu dürfen.
 </p>
         </div>
 
@@ -644,13 +644,13 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
                 <div class="g-pos-rel">
                   <img class="w-100" src="assets/jbilder/jane_laurenz_neu.jpg" alt="Image description">
 
-                  
+
                 </div>
                 <!-- End Article Image -->
 
                 <!-- Article Content -->
                 <div class="u-shadow-v9 g-pa-30">
-                  
+
 
                   <!-- Article Info -->
                   <h3 class="h6 text-uppercase g-line-height-1_8 g-font-weight-700 g-mb-20">JANE LAURENZ</h3>
@@ -669,13 +669,13 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
                 <div class="g-pos-rel">
                   <img class="w-100" src="assets/jbilder/maxi_huhn_neu.jpg" alt="Image description">
 
-                  
+
                 </div>
                 <!-- End Article Image -->
 
                 <!-- Article Content -->
                 <div class="u-shadow-v9 g-pa-30">
-                  
+
 
                   <!-- Article Info -->
                   <h3 class="h6 text-uppercase g-line-height-1_8 g-font-weight-700 g-mb-20">MAXI HUHN</h3>
@@ -686,7 +686,7 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
               </article>
               <!-- End Article -->
             </div>
-			
+
 			<div class="col-md-4 g-mb-30">
               <!-- Article -->
               <article class="text-center g-bg-white">
@@ -694,13 +694,13 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
                 <div class="g-pos-rel">
                   <img class="w-100" src="assets/jbilder/birgit_neu.jpg" alt="Image description">
 
-                 
+
                 </div>
                 <!-- End Article Image -->
 
                 <!-- Article Content -->
                 <div class="u-shadow-v9 g-pa-30">
-                  
+
 
                   <!-- Article Info -->
                   <h3 class="h6 text-uppercase g-line-height-1_8 g-font-weight-700 g-mb-20">BIRGIT FRIEBEL-PURSCHKE</h3>
@@ -711,7 +711,7 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
               </article>
               <!-- End Article -->
             </div>
-			
+
 			<div class="col-md-4 g-mb-30">
               <!-- Article -->
               <article class="text-center g-bg-white">
@@ -719,13 +719,13 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
                 <div class="g-pos-rel">
                   <img class="w-100" src="assets/jbilder/jana_winkler_neu.jpg" alt="Image description">
 
-                 
+
                 </div>
                 <!-- End Article Image -->
 
                 <!-- Article Content -->
                 <div class="u-shadow-v9 g-pa-30">
-                  
+
 
                   <!-- Article Info -->
                   <h3 class="h6 text-uppercase g-line-height-1_8 g-font-weight-700 g-mb-20">JANA WINKLER</h3>
@@ -736,7 +736,7 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
               </article>
               <!-- End Article -->
             </div>
-			
+
 			<div class="col-md-4 g-mb-30">
               <!-- Article -->
               <article class="text-center g-bg-white">
@@ -744,13 +744,13 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
                 <div class="g-pos-rel">
                   <img class="w-100" src="assets/jbilder/vivien_mai.jpg" alt="Image description">
 
-                 
+
                 </div>
                 <!-- End Article Image -->
 
                 <!-- Article Content -->
                 <div class="u-shadow-v9 g-pa-30">
-                  
+
 
                   <!-- Article Info -->
                   <h3 class="h6 text-uppercase g-line-height-1_8 g-font-weight-700 g-mb-20">VIVIEN MAI</h3>
@@ -761,7 +761,7 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
               </article>
               <!-- End Article -->
             </div>
-			
+
 			<div class="col-md-4 g-mb-30">
               <!-- Article -->
               <article class="text-center g-bg-white">
@@ -769,13 +769,13 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
                 <div class="g-pos-rel">
                   <img class="w-100" src="assets/jbilder/dalyn_meinel.jpg" alt="Image description">
 
-                 
+
                 </div>
                 <!-- End Article Image -->
 
                 <!-- Article Content -->
                 <div class="u-shadow-v9 g-pa-30">
-                  
+
 
                   <!-- Article Info -->
                   <h3 class="h6 text-uppercase g-line-height-1_8 g-font-weight-700 g-mb-20">DALYN MEINEL</h3>
@@ -788,25 +788,25 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
             </div>
           </div>
 
-          
+
         </div>
       </section>
       <!-- End Section Content -->
 
-      
 
-      
-     
 
-     
 
-     
+
+
+
+
+
       <!-- Section Content -->
       <section id="contact" class="g-py-70 g-theme-bg-gray-light-v1">
         <div class="container text-center g-width-590 g-mb-50">
           <div class="g-mb-25">
             <h4 class="g-font-weight-700 g-font-size-30 g-theme-h-v1 g-color-primary g-mb-25">KONTAKT</h4>
-            
+
           </div>
 
           <p class="mb-0">Hier können Sie mit uns Kontakt aufnehmen.</p>
@@ -830,8 +830,8 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
 				<input type="text" name="fri2022" style="display:none;">
                 <button class="btn btn-md text-uppercase btn-block u-btn-outline-primary g-font-weight-700 g-font-size-11 g-brd-2 rounded-0 g-py-19 g-px-20" type="submit" role="button" id="absende_button">Absenden</button>
 				<input type="checkbox" name="datenschutz_checkbox" id="datenschutz_checkbox" style="margin-top:20px;"> <p style="display:inline;">Bitte bestätigen Sie vor dem Absenden die <a href="#" id="datenschutz-link" data-toggle="modal" data-target="#exampleModalCenter">Datenschutzbestimmungen</a>.</p>
-							<p><br>Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular 
-							inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von 
+							<p><br>Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular
+							inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von
 							Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</p>
 				<div id="erfolg_kontaktformular"></div>
               </form>
@@ -956,16 +956,16 @@ Die Therapie von Inner Effect beginnt im Salon und wird bequem zu Hause fortgef�
 
       $(document).on('ready', function () {
 		  $("#datenschutz_checkbox").click(function(){
-	if( $('#datenschutz_checkbox').is(':checked') ) { 
+	if( $('#datenschutz_checkbox').is(':checked') ) {
 		$("#absende_button").prop('disabled', false);
 	}
 	else
 	{
 		$("#absende_button").prop('disabled', true);
-	}	
+	}
 });
 setTimeout(function(){ document.getElementById("absende_button").disabled = true; }, 2000);
-		  
+
         // initialization of carousel
         $.HSCore.components.HSCarousel.init('.js-carousel');
 
@@ -1030,7 +1030,7 @@ setTimeout(function(){ document.getElementById("absende_button").disabled = true
         $.HSCore.components.HSCubeportfolio.init('.cbp');
       });
     </script>
-	
+
 	<script defer>
 	$("#absende_button").click(function(e){
 	e.preventDefault();
@@ -1039,7 +1039,7 @@ setTimeout(function(){ document.getElementById("absende_button").disabled = true
 			$("#erfolg_kontaktformular").html("<div class='alert alert-success margin-bottom-30'>\n<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>\n<strong>Vielen Dank!</strong> Ihre Nachricht wurde an uns versendet!\n</div>\n");
 		}
 		else
-		{	
+		{
 			if(msg=="mf"){
 				$("#erfolg_kontaktformular").html("<div class='alert alert-danger margin-bottom-30'>\n<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>\n<strong>Fehler!</strong> Bitte gültige Mail-Adresse eingeben!\n</div>\n");
 			}
