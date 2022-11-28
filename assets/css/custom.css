@@ -1,0 +1,51 @@
+/* Add here all your css styles (customizations) */
+
+
+h4, h5 {
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+h5 {
+	text-transform:uppercase;
+	margin-bottom:30px;
+	font-size:25px;
+	color:#885384;
+}
+
+.js-prev, .js-next {
+	background-color:rgba(136, 83, 132, 0.7) !important;
+}
+
+.modal {
+	 z-index:99999;
+}
+.img-responsive {
+	max-width:100%;
+	height:auto;
+}
+
+@media(max-width:800px){
+	#home h1 {
+		font-size:40px !important;
+		line-height:1.2 !important;
+	}
+}
+
+@media(max-width:560px){
+	table.w-50 {
+		width:100% !important;
+	}
+}
+
+@media(max-width:450px){
+	#home h1 {
+		font-size:35px !important;
+		margin-top:10px;
+	}
+	.u-header__logo-img {
+		max-width:180px !important;
+	}
+	.g-font-size-22 {
+		font-size:1.1rem !important;
+	}
+}
