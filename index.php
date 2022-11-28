@@ -245,6 +245,7 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
         </div>
       </header>
       <!-- End Header -->
+      
 
       <!-- Section Content -->
       <section id="home" class="u-bg-overlay g-height-100vh g-min-height-600 g-bg-img-hero" style="background-image: url(assets/jbilder/header_team.jpg);">
@@ -269,7 +270,7 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
             <div class="col-md-6 d-flex align-items-center text-center g-pa-50">
               <div class="w-100">
                 <div class="g-mb-25">
-                  <h4 class="g-font-weight-700 g-font-size-30 g-theme-h-v1 g-color-primary g-mb-25">DIE HAIRLOUNGE...</h4>
+                  <h4 class="g-font-weight-700 g-font-size-30 g-theme-h-v1 g-color-primary g-mb-25">DIE HAIRLOUNGE</h4>
                 </div>
 
                 <p class="g-mb-35"> Mit der Eröffnung der Hairlounge wurde ein völlig neuer Kreativraum in der Altstadt von Mittweida geschaffen. Hier, wo zukünftig nicht nur trendige Frisuren kreiert werden, erfährt ihr Haar eine Behandlung, bei der durch Analyse und mittels einer typgerechten Beratung, sie eine fachgerechte Ausführung erleben werden, die ihr Haar in klassische und modisch aktuelle Frisuren verwandelt. Auf den Einsatz von Friseurexklusiven Produkten, zur gesunden und schonenden Behandlung des Haares, von der Kopfhaut bis in die Spitzen, wird in der Hairlounge besonderen Wert gelegt. Über ein weites Spektrum von Servicedienstleistungen rund um ihr Haar möchten sie die folgenden Seiten informieren.<br><br>
